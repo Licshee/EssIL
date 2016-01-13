@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>EssIL</id>
+        <version>0.3.0.1</version>
+        <authors>Licshee</authors>
+        <projectUrl>https://github.com/NanaLich/EssIL.git</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A library contains classes those hardly to write in most .NET languages, thus necessary to be written in CIL.</description>
+    </metadata>
+    <files>
+        <file src="EssIL.dll" target="EssIL.dll" />
+    </files>
+</package>
