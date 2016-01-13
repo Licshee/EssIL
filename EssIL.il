@@ -1,6 +1,6 @@
 .assembly EssIL {
   .hash algorithm 0x00008004
-  .ver 0:3:0:0
+  .ver 0:4:0:0
 
   .custom instance void [System.Core]System.Runtime.CompilerServices.ExtensionAttribute::.ctor() = ( 01 00 00 00 )
 }
@@ -75,7 +75,7 @@
 
     // replace with underlying type if enum
     ldloc.0
-    callvirt instance class [mscorlib]System.Type [mscorlib]System.Type::GetEnumUnderlyingType()
+    call class [mscorlib]System.Type [mscorlib]System.Enum::GetUnderlyingType(class [mscorlib]System.Type)
     stloc.0
 
     // determine if 64bit is native supported

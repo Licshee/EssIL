@@ -16,7 +16,7 @@ namespace EssIL
             }
             if (type.IsEnum)
             {
-                type = type.GetEnumUnderlyingType();
+                type = Enum.GetUnderlyingType(type);
             }
             if (IntPtr.Size < 8)
             {

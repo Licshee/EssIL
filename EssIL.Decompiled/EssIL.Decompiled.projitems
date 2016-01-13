@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>48a24a8f-cf1f-47eb-a585-71d30077d0c2</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>EssIL</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AtomicVolatileAccessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ClassUtility.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FlagTypeExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Memory.cs" />
+  </ItemGroup>
+</Project>
